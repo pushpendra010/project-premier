@@ -133,3 +133,37 @@ html,body{
 .over2 img{
     height: 3.5vw;
 }
+
+#scroll{
+    height: 50vh;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#container{
+    height: 100%;
+    width: 110%;
+    display: inline-block;
+    padding: 2vw;
+    animation: scroller 10s infinite linear;
+}
+
+#container img{
+    height: 80%;
+    width: 15%;
+    border-radius: 55%;
+    object-fit: cover;
+    object-position: 30% 30%;
+    margin: 1vw;
+
+}
+
+@keyframes scroller{
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(-100%);
+    }
+}
