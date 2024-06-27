@@ -482,3 +482,108 @@ body{
     object-fit: cover;
     object-position: top;
 }
+
+#footer{
+    height: 50vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    padding: 2vw 0;
+}
+
+#footer .footer-part1{
+    height: 100%;
+    width: 40%;
+    /* background-color: blue; */
+    padding: 1vw 3.7vw;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    /* border-right: 2px solid black; */
+}
+
+#footer .footer-part1 h1{
+    font-size: 4.5vw;
+    font-weight: 900;
+    letter-spacing: -5px;
+    font-family: 'monuments';
+    /* background-color: yellowgreen; */
+}
+
+#footer .footer-part1 h2{
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: .9vw 0vw;
+    /* background-color: yellow; */
+
+}
+
+#footer .footer-part2{
+    height: 100%;
+    width: 20%;
+    /* background-color: yellow; */
+    padding: 1vw 3.7vw;
+    border: 2px solid black;
+    
+}
+
+#footer .footer-part2 h2{
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding: .9vw 0vw;
+    /* background-color: yellowgreen; */
+}
+
+#footer .footer-part3{
+    height: 100%;
+    width: 40%;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+    /* background-color: green; */
+}
+
+#footer .footer-part3 .up{
+    height: 30%;
+    width: 100%;
+    /* padding: 1vw 3.7vw; */
+    align-items: center;
+    padding: 0 3.7vw;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+#footer .footer-part3 .up h2{
+    font-size: 1.5vw;
+    font-weight: 500;
+
+}
+
+#footer .footer-part3 .down{
+    height: 70%;
+    width: 100%;
+    padding: 2.5vw 3.7vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .footer-part3 .down .icon {
+    margin-bottom: 1.5vw;
+    
+}
+
+#footer .footer-part3 .down .icon i{
+    font-size: 1.5vw;
+    padding-right: 1vw;
+}
+
+#footer .footer-part3 .down h2{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+#footer .footer-part3 .down h4{
+    font-size: 1.1vw;
+    font-weight: 600;
+}
