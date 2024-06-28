@@ -120,7 +120,7 @@ body{
 }
 
 .content .overlay{
-    height: 55%;
+    height: 60%;
     width: 100%;
     bottom: 0;
     position: absolute;
@@ -665,17 +665,41 @@ body{
     font-weight: 600;
 }
 
-@media (max-width: 1300px) {
+
+@media (max-width: 1410px){
+    #nav h2{
+        font-size: 1.2vw;
+    }
+}
+
+@media (max-width: 1310px) {
     #scroll {
         height: 40vh;
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1210px){
+    .content .overlay {
+        height: 50%;
+    }
+    #page-5 .elem img {
+        width: 07.5%
+    }
+}
+
+@media (max-width: 994px) {
 
     #footer .footer-part1 h1::after{
         display: none;
     }
+
+    #nav h2{
+        font-size: 1.2vw;
+    }
+    .ri-search-line:before {
+        font-size: 1.9vw;
+    }
+    
     #footer .footer-part1 h1::before{
         display: none;
     }
@@ -695,9 +719,22 @@ body{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 910px) {
+    #scroll {
+        height: 29vh;
+    }
+
     .content .overlay {
         height: 40%;
+    }
+    #page-5 .elem img {
+        width: 10%;
+    }
+}
+
+@media (max-width: 770px) {
+    .content .overlay {
+        height: 30%;
     }
 
     .overlay .over1 h2 {
@@ -708,10 +745,23 @@ body{
         height: 4.5vw;
     }
     #scroll {
-        height: 28vh;
+        height: 25vh;
+    }
+    #container {
+        width: 150%;
+    }
+    #page-5 .elem img {
+        width: 18%;
     }
 
-    .part2 .txt {
+    #label h1 {
+        font-size: 7vw;
+    }
+
+    #footer {
+        height: 30vh;
+    }
+     .part2 .txt {
         margin-top: 2.5vw;
     }
     .part2 .txt p {
@@ -744,8 +794,47 @@ body{
         margin-bottom: 2vw;
     }
 }
+@media (max-width: 740px){
+    .content .overlay {
+        height: 35%;
+    }
+    #scroll {
+        height: 27vh;
+    }
+    #footer {
+        height: 40vh;
 
-@media (max-width: 480px) {
+}
+
+@media (max-width: 652px) {
+    .content .overlay {
+        height: 32%;
+    }
+
+    #scroll {
+        height: 24vh;
+    }
+    #page-5 .elem img {
+        width: 13%;
+    }
+
+}
+
+@media (max-width: 610px){
+    #nav h1::before {
+        bottom: 25%;
+    }
+
+    #nav h1::after {
+        top: 20%;
+        right: 07%;
+    }
+    #scroll {
+        height: 22vh;
+    }
+
+}
+@media (max-width: 482px) {
     #nav h1::before,  #nav h1::after {
         display: none;
     }
@@ -800,6 +889,86 @@ body{
     }
 
     #page-2 {
+        height: 50%;
+    }
+
+    #page-3 .circle{
+        margin-left: 0;
+    }
+    #page-3 .left h4 {
+        font-size: 2vw;
+    }
+    #page-5 .elem img {
+        width: 18%;
+    }
+    #page-5 .elem .elem-part2 h5 {
+        font-size: 1.5vw;
+    }
+    #page-5 .elem .elem-part2 h1 {
+        font-size: 3vw;
+    }
+
+    #label h1 {
+        font-size: 6vw;
+    }
+
+    #footer .footer-part1 .div1 h1 {
+        letter-spacing: -1px;
+    }
+
+    #footer {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 460px){
+    .content .overlay {
+        height: 25%;
+    }
+
+    #page-2 .part2{
+        display: none;
+    }
+
+    #page-2 .part1{
+        height: 100%;
+        width: 100%;
+    }
+
+    #page-3 .right{
+        display: none;
+    }
+
+    #page-3 .left {
+        width: 100%;
+        align-items: center;
+    }
+
+    #page-3{
+        height: 50%;
+    }
+
+    #page-3 .left h2 {
+        font-size: 8vw;
+    }
+    #page-3 .left h4 {
+        font-size: 3vw;
+    }
+
+    #page-5 .elem img {
+        height: 60%;
+        width: 20%;
+    }
+
+    #label h1 {
+        font-size: 8vw;
+    }
+
+    #page-6 img {
+        object-position: center;
+    }
+
+    #page-6 {
         height: 50%;
     }
 }
